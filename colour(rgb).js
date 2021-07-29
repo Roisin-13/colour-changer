@@ -2,9 +2,10 @@
 function randNum() {
     return Math.round(Math.random() * 255);
 };
+randNum();
 
-console.log(randNum());
 function getColour() {
-    return `(${randNum},${randNum},${randNum})`
+    let rgb = "randNum(), randNum(), randNum()";
+    return rgb;
 };
 console.log(getColour());
