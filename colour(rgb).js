@@ -22,9 +22,3 @@ button.addEventListener("click", function() {
         text.innerHTML = `${newClr}`;
 });
 
-
-
-//colourChange();
-
-//"click", colourChange());
-//button.addEventListener("click", )
