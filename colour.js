@@ -1,7 +1,7 @@
 
 
 function colourChange() {
-	let randNum = Math.floor(Math.random() * 11);
+	let randNum = Math.floor(Math.random() * 21);
 	let newPage = "";
 	let newClr = "";
 	if (randNum === 0) {
@@ -37,6 +37,36 @@ function colourChange() {
 	}   else if (randNum === 10) {
 		newPage = "plum";
 		newClr = "Plum";	
+	} 	else if (randNum === 11) {
+		newPage = "CornflowerBlue";
+		newClr = "Cornflower Blue";	
+	} else if (randNum === 12) {
+		newPage = "Thistle";
+		newClr = "Thistle";		
+	} else if (randNum === 13) {
+		newPage = "violet";
+		newClr = "Violet";	
+	}  else if (randNum === 14) {
+		newPage = "Tomato";
+		newClr = "Tomato";	
+	}   else if (randNum === 15) {
+		newPage = "Wheat";
+		newClr = "Wheat";	
+	}   else if (randNum === 16) {
+		newPage = "SlateBlue";
+		newClr = "Slate Blue";	
+	}   else if (randNum === 17) {
+		newPage = "SeaGreen";
+		newClr = "Sea Green";	
+	}   else if (randNum === 18) {
+		newPage = "Salmon";
+		newClr = "Salmon";	
+	}   else if (randNum === 19) {
+		newPage = "RebeccaPurple";
+		newClr = "Rebecca Purple";	
+	}   else if (randNum === 20) {
+		newPage = "PapayaWhip";
+		newClr = "Papaya Whip";	
 	} 
 
 	let page = document.getElementById("bodyodyody");
@@ -47,37 +77,3 @@ function colourChange() {
 };
 
 
-
-
-
-
-/*==========---------------
-function colourChange() {
-	let randNum = Math.Floor(Math.Random() * 4);
-	let clrName = "";
-	let page = "";
-	if (randNum === 0) {
-		page = "red";
-		clrName = "Red";
-	} else if (randNum === 1) {
-		page = "blue";
-		clrName = "Blue";		
-	} else if (randNum === 2) {
-		page = "pink";
-		clrName = "Pink";		
-	} else if (randNum === 3) {
-		page = "yellow";
-		clrName = "Yellow";		
-	}
-};
-
-	let clrName = document.getElementById("clr");
-	let page = document.querySelector("body");
-
-	page.style.color = clrName;
-	clrName.innerHTML = page;
-
-//document.getElementById("btn").onclick = "colourChange";
-//page.onclick = colourChange;
-
--------------==============*/
